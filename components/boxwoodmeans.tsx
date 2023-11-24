@@ -165,14 +165,15 @@ export const BoxwoodMeans = () => {
                 <div className="max-w-xs sm:max-w-xl md:max-w-3xl mt-8 2xl:mt-16">
                   <p className="text-sm text-slate-600 leading-normal">
                     The valuation tool results in a lot of property listings:
-                    each property is known by it's address and is accompanied by
-                    many characteristics. It was important from the beginning to
-                    set a standard design of how a property is to be displayed,
-                    with address as a clear title, and only with a select number
-                    of characteristics visible. An accompanying map is
-                    intentionally set side-by-side to give the user a quick
-                    understanding of where these properties are located in
-                    relation to each other, and to the given neighborhood.
+                    each property is known by it&apos;s address and is
+                    accompanied by many characteristics. It was important from
+                    the beginning to set a standard design of how a property is
+                    to be displayed, with address as a clear title, and only
+                    with a select number of characteristics visible. An
+                    accompanying map is intentionally set side-by-side to give
+                    the user a quick understanding of where these properties are
+                    located in relation to each other, and to the given
+                    neighborhood.
                   </p>
                 </div>
               </div>

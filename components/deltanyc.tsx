@@ -223,7 +223,7 @@ export const DeltaNYC = () => {
                       />
                       <div className="max-w-xs sm:max-w-lg mt-8 2xl:mt-16">
                         <p className="text-sm text-slate-600 leading-normal">
-                          The results lists the user's score prominently,
+                          The results lists the user&apos;s score prominently,
                           alongside the top scores on the leaderboard so that
                           they know where they place.
                         </p>
@@ -287,7 +287,7 @@ export const DeltaNYC = () => {
                     <h5>
                       A quick list of how to earn points for the duration of the
                       campaign, how much the user has earned and what activities
-                      they've completed to earn those points.
+                      they&apos;ve completed to earn those points.
                     </h5>
                   </div>
                   <div className="flex space-x-10 drop-shadow-xl">

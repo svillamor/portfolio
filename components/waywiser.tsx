@@ -83,8 +83,8 @@ export const WayWiser = () => {
         <div className="px-4 sm:px-12 max-w-4xl">
           <h3 className="mb-2">Proposed</h3>
           <h4 className="leading-relaxed sm:leading-normal">
-            Allow users to connect their elder's financial accounts to Waywiser,
-            so that
+            Allow users to connect their elder&apos;s financial accounts to
+            Waywiser, so that
             <span className="font-bold bg-high px-1">
               financial activity can be viewed and monitored directly in the
               WayWiser app.
@@ -404,12 +404,12 @@ export const WayWiser = () => {
                     WayWiser provides this circle with tools to care for the
                     elder: they can coordinate schedules and appointments
                     through the WayWiser calendar; they can store important
-                    documents like an insurance card or doctor's notes; most
-                    importantly, conversations around care can be had on the
-                    app-they don't have to get lost in different threads of text
-                    messages. The activity feed used to share updates to the
-                    group also provides a historical log of the care the elder
-                    has received.
+                    documents like an insurance card or doctor&apos;s notes;
+                    most importantly, conversations around care can be had on
+                    the app-they don&apos;t have to get lost in different
+                    threads of text messages. The activity feed used to share
+                    updates to the group also provides a historical log of the
+                    care the elder has received.
                   </p>
                   <p className="sm:hidden text-sm text-slate-600 leading-normal">
                     WayWiser provides this circle with tools to care for their
