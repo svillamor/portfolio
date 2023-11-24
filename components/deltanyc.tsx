@@ -168,14 +168,12 @@ export const DeltaNYC = () => {
                       />
                       <div className="max-w-xs sm:max-w-lg mt-8 2xl:mt-16">
                         <p className="text-sm text-slate-600 leading-normal">
-                          The opening summary of each mini-game sets the context
-                          of the game: beyond a summary of how Each mini-game
-                          consists of an opening summary that lists how to play,
-                          details of when the game starts and ends, and how many
-                          points the user can earn. Some games had daily
-                          winners, others had only one winner for the week, so
-                          it was important to call out how often users could
-                          participate.
+                          Each mini-game consists of an opening summary that
+                          lists how to play, details of when the game starts and
+                          ends, and how many points the user can earn. Some
+                          games had daily winners, others had only one winner
+                          for the week, so it was important to call out how
+                          often users could participate.
                         </p>
                       </div>
                     </div>
