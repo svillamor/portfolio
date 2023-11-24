@@ -9,7 +9,19 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+         fontFamily: {
+            sans: [
+                '"Inter var", sans-serif',
+          ]
+         },
+         colors: {
+        'dgray': '#030712',
+        'high': '#DCFF00',
+        'bggray': '#E6E8F0',
+        'purp': '#6100FF',     
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],

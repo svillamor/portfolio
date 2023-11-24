@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {  
+  h1 {
+    @apply text-dgray text-6xl md:text-7xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply text-dgray text-5xl font-bold tracking-tight;
+  }
+  h3 {
+    @apply text-dgray text-xl font-bold;
+  }
+  h4 {
+    @apply text-dgray text-2xl font-normal;
+  }    
+  h5 {
+    @apply text-sm sm:text-base leading-snug font-bold;
+  }    
+  p {
+    @apply text-dgray text-base leading-snug font-medium;
+  }
+}
