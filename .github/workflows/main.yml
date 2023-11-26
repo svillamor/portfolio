@@ -29,5 +29,5 @@ jobs:
           remote_path: /home/dh_uxcu3k/samira.villamor.io
           remote_host: tigard.dreamhost.com
           remote_user: dh_uxcu3k
-          remote_password: ${{DREAMHOST_PASSWORD}}
-          remote_key: ${{SSH_HOST}}
+          remote_password: ${{secrets.DREAMHOST_PASSWORD}}
+          remote_key: ${{secrets.SSH_HOST}}
