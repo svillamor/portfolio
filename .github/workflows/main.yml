@@ -12,15 +12,14 @@ jobs:
           node-version: '20.x'
       - run: npm ci
       - run: npm run build --if-present
-      - run: sshpass -p ${{secrets.DREAMHOST_PASSWORD}} dh_uxcu3k@tigard.dreamhost.com
-      # - name: Install SSH Key
-      #   uses: shimataro/ssh-key-action@v2
-      #   with:
-      #     key: ${{ secrets.DREAMHOST_SECRET }}
-      #     known_hosts: 'derp'
-      # - name: Adding Known Hosts
-      #   run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-      # - name: See known hosts
-      #   run: cat ~/.ssh/known_hosts
-      # - name: Deploy into Dreamhost  
-      #   run: sshpass -p ${{secrets.DREAMHOST_PASSWORD}} rsync -avz ./out/ dh_uxcu3k@tigard.dreamhost.com:/home/dh_uxcu3k/samira.villamor.io
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.DREAMHOST_SECRET }}
+          known_hosts: 'derp'
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: See known hosts
+        run: cat ~/.ssh/known_hosts
+      - name: Deploy into Dreamhost  
+        run: rsync -avz ./out/ dh_uxcu3k@tigard.dreamhost.com:/home/dh_uxcu3k/samira.villamor.io
