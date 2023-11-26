@@ -279,7 +279,7 @@ export const BoxwoodMeans = () => {
                       alt="A grid view of the sales comps used in the valuation report. The valuation amount listed at the top. There are property details listed above a map, and a list of comparable properties is shown, each in it's column. Each property detail is listed in its own row. The weighting of the comparable properties can be edited, and each property can have its details editer or it can be removed. The user can switch to a map view of the properties."
                     />
                   </div>
-                  <div className="max-w-xs sm:max-w-xl md:max-w-3xl mt-8 sm:mt-20">
+                  <div className="max-w-xs sm:max-w-xl md:max-w-3xl mt-8 2xl:mt-20">
                     <p className="text-sm text-slate-600 leading-normal">
                       There are two views for sales comps: a map view with
                       truncated detail of each listing, and the grid view which
