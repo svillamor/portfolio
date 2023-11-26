@@ -22,4 +22,12 @@ jobs:
       - name: See known hosts
         run: cat ~/.ssh/known_hosts
       - name: Deploy into Dreamhost  
-        run: rsync -avz ./out/ dh_uxcu3k@tigard.dreamhost.com:/home/dh_uxcu3k/samira.villamor.io
+        uses: burnett01/rsync-deployments@.2
+        with:
+          switches: -avz
+          path: /out/
+          remote_path: /home/dh_uxcu3k/samira.villamor.io
+          remote_host: tigard.dreamhost.com
+          remote_user: dh_uxcu3k
+          remote_password: ${{DREAMHOST_PASSWORD}}
+          remote_key: ${{SSH_HOST}}
