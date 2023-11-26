@@ -22,7 +22,7 @@ jobs:
       - name: See known hosts
         run: cat ~/.ssh/known_hosts
       - name: Deploy into Dreamhost  
-        uses: burnett01/rsync-deployments@.2
+        uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avz
           path: /out/
