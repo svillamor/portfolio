@@ -288,7 +288,7 @@ export const WayWiser = () => {
                 <div className="max-w-xs sm:max-w-md mt-10 sm:mt-16">
                   <p className="text-sm text-slate-600 leading-normal">
                     Aggregating different accounts eliminates the need to log in
-                    to multiple banking apps to check balances or activity. It’s
+                    to multiple banking apps to check balances or activity. It's
                     as simple as at-a-glance monitoring.
                   </p>
                 </div>
