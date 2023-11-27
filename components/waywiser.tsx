@@ -317,6 +317,14 @@ export const WayWiser = () => {
                       alt="A detailed view of a single transaction. The name of the vendor is at the top, then listed below is the transaction amount, the account used, location and date and time. There are two buttons at the bottom one to send these details as a message or to post it to the Circle."
                     />
                   </div>
+                  <div className="max-w-xs sm:max-w-lg mt-10 sm:mt-16">
+                    <p className="text-sm text-slate-600 leading-normal">
+                      It's important to preserve the details of any transaction
+                      activity to give the user as much context as possible
+                      around the transaction. It is also important to format the
+                      data in a way that's easy to read and scan through.
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* END View transaction activity */}
@@ -348,7 +356,7 @@ export const WayWiser = () => {
                     alt="The main financial dashboard of WayWiser, the user can see their connected bank accounts and respective balances. There is a list of the most recent transactions that have caused an alert."
                   />
                   <Image
-                    src="/waywiser-onboarding_4.png"
+                    src="/waywiser-setalerts.png"
                     className="w-44 object-center"
                     alt="The alert settings page of WayWiser where users can customize what triggers an alert notification. The user can get alerted when there is a change in balance, when there is a transaction, and where there is a cash withdrawal. The user can specify the amount for each alert and how they want to receive the notification(email, text, push)."
                   />
@@ -357,9 +365,10 @@ export const WayWiser = () => {
                   <p className="text-sm text-slate-600 leading-normal">
                     The initial phase of the alerting feature offers basic
                     settings around account behavior. Considering the type of
-                    transactional data that we receive, this can evolve into
-                    much more complex alerting, such as location-based alerts,
-                    or
+                    transactional data that can be passed through from Plaid,
+                    this can evolve into much more complex alerting, such as
+                    location-based alerts or alerts based on anomalies in
+                    elderly's habits.
                   </p>
                 </div>
               </div>
@@ -502,12 +511,12 @@ export const WayWiser = () => {
                   <p className="text-sm text-slate-600 leading-normal pb-2">
                     Going beyond monitoring for fraud, the ability to share
                     balances & transactions provides the user a convenient way
-                    to keep track of finances.
+                    to keep track of finances amongst Circle members.
                   </p>
                   <p className="text-sm text-slate-600 leading-normal">
-                    The shared alert highlights the important information of
-                    what and when(and if possible, where) to quickly set the
-                    context of the questionable activity.
+                    Conversations around a specific transaction activity can be
+                    kept in its own dedicated thread, with the ability to add
+                    photos, such as of receipts, to provide context.
                   </p>
                 </div>
               </div>
