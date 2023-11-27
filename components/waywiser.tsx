@@ -22,8 +22,8 @@ export const WayWiser = () => {
           <p>
             To help combat the risk of elderly fraud and financial scams,
             WayWiser wanted to add the ability to connect to financial accounts
-            so that users could monitor their elder’s financial activity in the
-            same environment that they coordinate other aspects of care.
+            so that users could monitor their elder&apos;s financial activity in
+            the same environment that they coordinate other aspects of care.
           </p>
         </div>
       </div>
@@ -288,8 +288,8 @@ export const WayWiser = () => {
                 <div className="max-w-xs sm:max-w-md mt-10 sm:mt-16">
                   <p className="text-sm text-slate-600 leading-normal">
                     Aggregating different accounts eliminates the need to log in
-                    to multiple banking apps to check balances or activity. It's
-                    as simple as at-a-glance monitoring.
+                    to multiple banking apps to check balances or activity.
+                    It&apos;s as simple as at-a-glance monitoring.
                   </p>
                 </div>
               </div>
@@ -319,10 +319,11 @@ export const WayWiser = () => {
                   </div>
                   <div className="max-w-xs sm:max-w-lg mt-10 sm:mt-16">
                     <p className="text-sm text-slate-600 leading-normal">
-                      It's important to preserve the details of any transaction
-                      activity to give the user as much context as possible
-                      around the transaction. It is also important to format the
-                      data in a way that's easy to read and scan through.
+                      It&apos;s important to preserve the details of any
+                      transaction activity to give the user as much context as
+                      possible around the transaction. It is also important to
+                      format the data in a way that&apos;s easy to read and scan
+                      through.
                     </p>
                   </div>
                 </div>
@@ -368,7 +369,7 @@ export const WayWiser = () => {
                     transactional data that can be passed through from Plaid,
                     this can evolve into much more complex alerting, such as
                     location-based alerts or alerts based on anomalies in
-                    elderly's habits.
+                    elderly&apos;s habits.
                   </p>
                 </div>
               </div>
@@ -447,17 +448,17 @@ export const WayWiser = () => {
                   <Image
                     src="/waywiser-share_3.png"
                     className="w-44"
-                    alt="A detailed view of an alert transaction. The trigger of the alert, 'Large Transaction' is at the top, followed by the amount, then the account used, the vendor, location, and date and time. There is a big share button at the bottom."
+                    alt="A detailed view of an alert transaction. The trigger of the alert, Large Transaction is at the top, followed by the amount, then the account used, the vendor, location, and date and time. There is a big share button at the bottom."
                   />
                   <Image
                     src="/waywiser-share_4.png"
                     className="w-44"
-                    alt="A view of the user sharing the alert transaction. The user can choose who to share it with, with those with financial access or to everyone in the Circle. There is a list of users it is visible to and a comment box. The user has written 'Does anyone have any idea what dad bought at Walmart?' as the comment."
+                    alt="A view of the user sharing the alert transaction. The user can choose who to share it with, with those with financial access or to everyone in the Circle. There is a list of users it is visible to and a comment box. The user has written Does anyone have any idea what dad bought at Walmart? as the comment."
                   />
                   <Image
                     src="/waywiser-share_5.png"
                     className="w-44"
-                    alt="A view of the activity feed with the alert transaction posted. There is a comment from the user above the alert details. The post shows the alert trigger of 'Large Transaction,' the amount, account, vendor, location, and date and time. There is a successfully posted message at the bottom."
+                    alt="A view of the activity feed with the alert transaction posted. There is a comment from the user above the alert details. The post shows the alert trigger of Large Transaction, the amount, account, vendor, location, and date and time. There is a successfully posted message at the bottom."
                   />
                 </div>
                 <div className="max-w-xs sm:max-w-xl mt-10 sm:mt-16">
@@ -499,7 +500,7 @@ export const WayWiser = () => {
                   <Image
                     src="/waywiser-share_7.png"
                     className="w-44"
-                    alt="A view of the user sharing the transaction. The user can choose who to share it with, with those with financial access or to everyone in the Circle. There is a list of users it is visible to and a comment box. The user has written 'Hey @Mary, thanks for taking Dad to the grocery store. Can you comment back with the receipt? Thank you!' as the comment."
+                    alt="A view of the user sharing the transaction. The user can choose who to share it with, with those with financial access or to everyone in the Circle. There is a list of users it is visible to and a comment box. The user has written Hey @Mary, thanks for taking Dad to the grocery store. Can you comment back with the receipt? Thank you! as the comment."
                   />
                   <Image
                     src="/waywiser-share_9.png"
