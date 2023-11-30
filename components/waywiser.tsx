@@ -413,7 +413,7 @@ export const WayWiser = () => {
                       >
                         <div className="opacity-0">
                           <Image
-                            src="/waywiser-share_1-mobile.png"
+                            src="/waywiser-share_1.png"
                             alt="Four circles representing the participants of a Trusted Circle. The elder is in the middle, surrounded by a primary user and two secondary users. A dotted line in a circle connects the primary and secondary users."
                           />
                         </div>
