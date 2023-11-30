@@ -33,8 +33,8 @@ export const BoxwoodMeans = () => {
             <Image
               src="/dott.png"
               className="
-                                rounded-none
-                                max-w-none"
+                rounded-none
+                max-w-none"
               width={23}
               alt="point"
             />
@@ -146,21 +146,42 @@ export const BoxwoodMeans = () => {
                   <Image
                     src="/boxwoodmeans_search_1.png"
                     className="
-                                                rounded-none                                                
-                                                max-w-xs
-                                                sm:max-w-2xl
-                                                "
+                      rounded-none                                                
+                      max-w-xs
+                      sm:max-w-2xl
+                      "
                     alt="The homepage of the valuation tool. The headline reads, 'Commercial property values. Instantly.' The user can input an address and zip code and select property type and subtype."
                   />
-                  <Image
-                    src="/boxwoodmeans_search_2.png"
-                    className="
-                                                rounded-none
-                                                max-w-xs                                            
-                                                sm:max-w-2xl
-                                                "
-                    alt="After searching an address, a list of properties is shown on the left. A map is on the right showing the location of the properties listed."
-                  />
+                  <div>
+                    <div className="hidden relative sm:block h-[228px] w-[320px] sm:h-[478px] sm:w-[672px]">
+                      <div
+                        className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/boxwoodmeans_search_2.png')]"
+                      >
+                        <div className="opacity-0">
+                          <Image
+                            src="/boxwoodmeans_search_2.png"
+                            alt="After searching an address, a list of properties is shown on the left. A map is on the right showing the location of the properties listed."
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/boxwoodmeans_search_2-hover.png')]"
+                      ></div>
+                    </div>
+                    <div className="sm:hidden">
+                      <Image
+                        src="boxwoodmeans_search_2.png"
+                        className="
+                              rounded-none
+                              max-w-xs                                            
+                              sm:max-w-2xl
+                            "
+                        alt="After searching an address, a list of properties is shown on the left. A map is on the right showing the location of the properties listed."
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="max-w-xs sm:max-w-xl md:max-w-3xl mt-8 2xl:mt-16">
                   <p className="text-sm text-slate-600 leading-normal">
@@ -215,15 +236,36 @@ export const BoxwoodMeans = () => {
                     </h5>
                   </div>
                   <div className="flex space-x-10 drop-shadow-xl">
-                    <Image
-                      src="/boxwoodmeans-view_1.png"
-                      className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                      alt="The valuation report has the valuation amount listed at the top. There are two graphs below it. There are property details listed above a map, and a list of comparable properties to the right. There are tabs at the top to switch views between valuation summary, market data, and sales comps."
-                    />
+                    <div>
+                      <div className="hidden relative sm:block h-[228px] w-[320px] sm:h-[478px] sm:w-[672px]">
+                        <div
+                          className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                          bg-[url('/boxwoodmeans-view_1.png')]"
+                        >
+                          <div className="opacity-0">
+                            <Image
+                              src="/boxwoodmeans_view_1.png"
+                              alt="The valuation report has the valuation amount listed at the top. There are two graphs below it. There are property details listed above a map, and a list of comparable properties to the right. There are tabs at the top to switch views between valuation summary, market data, and sales comps."
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                          bg-[url('/boxwoodmeans-view_1-hover.png')]"
+                        ></div>
+                      </div>
+                      <div className="sm:hidden">
+                        <Image
+                          src="/boxwoodmeans_view_1.png"
+                          className="
+                                rounded-none
+                                max-w-xs                                            
+                                sm:max-w-2xl
+                              "
+                          alt="The valuation report has the valuation amount listed at the top. There are two graphs below it. There are property details listed above a map, and a list of comparable properties to the right. There are tabs at the top to switch views between valuation summary, market data, and sales comps."
+                        />
+                      </div>
+                    </div>
                     <Image
                       src="/boxwoodmeans-view_2.png"
                       className="
@@ -269,15 +311,36 @@ export const BoxwoodMeans = () => {
                                                     "
                       alt="A map view of the sales comps used in the valuation report. The valuation amount listed at the top. There are property details listed above a map, and a list of comparable properties to the right. The weighting of the comparable properties can be edited, and each property can have its details editer or it can be removed. The user can switch to a grid view of the properties."
                     />
-                    <Image
-                      src="/boxwoodmeans-adjust_2.png"
-                      className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                      alt="A grid view of the sales comps used in the valuation report. The valuation amount listed at the top. There are property details listed above a map, and a list of comparable properties is shown, each in it's column. Each property detail is listed in its own row. The weighting of the comparable properties can be edited, and each property can have its details editer or it can be removed. The user can switch to a map view of the properties."
-                    />
+                    <div>
+                      <div className="hidden relative sm:block h-[228px] w-[320px] sm:h-[478px] sm:w-[672px]">
+                        <div
+                          className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                          bg-[url('/boxwoodmeans-adjust_2.png')]"
+                        >
+                          <div className="opacity-0">
+                            <Image
+                              src="/boxwoodmeans-adjust_2.png"
+                              alt="A grid view of the sales comps used in the valuation report. The valuation amount listed at the top. There are property details listed above a map, and a list of comparable properties is shown, each in it's column. Each property detail is listed in its own row. The weighting of the comparable properties can be edited, and each property can have its details editer or it can be removed. The user can switch to a map view of the properties."
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="h-[228px] w-[320px] sm:h-[478px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                          bg-[url('/boxwoodmeans-adjust_2-hover.png')]"
+                        ></div>
+                      </div>
+                      <div className="sm:hidden">
+                        <Image
+                          src="/boxwoodmeans-adjust_2.png"
+                          className="
+                                rounded-none
+                                max-w-xs                                            
+                                sm:max-w-2xl
+                              "
+                          alt="A grid view of the sales comps used in the valuation report. The valuation amount listed at the top. There are property details listed above a map, and a list of comparable properties is shown, each in it's column. Each property detail is listed in its own row. The weighting of the comparable properties can be edited, and each property can have its details editer or it can be removed. The user can switch to a map view of the properties."
+                        />
+                      </div>
+                    </div>
                   </div>
                   <div className="max-w-xs sm:max-w-xl md:max-w-3xl mt-8 2xl:mt-20">
                     <p className="text-sm text-slate-600 leading-normal">

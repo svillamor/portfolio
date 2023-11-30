@@ -112,22 +112,41 @@ export const DeltaNYC = () => {
                   </h5>
                 </div>
                 <div className="flex space-x-10 shrink-0 drop-shadow-xl">
-                  <Image
-                    src="/delta-microsite_1.png"
-                    className="
-                                                rounded-none                                                
-                                                max-w-xs
-                                                sm:max-w-2xl
-                                                "
-                    alt="The microsite homepage for the campaight. There is a menu at the top and four buttons on the left. In the middle is the campaign name along with the most recent event happening. The user can click on the button to go to the 'mission event.' Below that is an activity ticker showing the most recent activity from participating users. There is a cityscape of NYC as the background."
-                  />
+                  <div className="hidden sm:block h-[215px] w-[320px] sm:h-[452px] sm:w-[672px]">
+                    <div
+                      className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-microsite_1.png')]"
+                    >
+                      <div className="opacity-0">
+                        <Image
+                          src="/delta-microsite_1.png"
+                          alt="The microsite homepage for the campaight. There is a menu at the top and four buttons on the left. In the middle is the campaign name along with the most recent event happening. The user can click on the button to go to the 'mission event.' Below that is an activity ticker showing the most recent activity from participating users. There is a cityscape of NYC as the background."
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-microsite_1-hover.png')]"
+                    ></div>
+                  </div>
+                  <div className="sm:hidden">
+                    <Image
+                      src="/delta-microsite_1.png"
+                      className="max-w-xs
+                            rounded-none
+                            max-w-xs                                            
+                            sm:max-w-2xl
+                          "
+                      alt="The microsite homepage for the campaign. There is a menu at the top and four buttons on the left. In the middle is the campaign name along with the most recent event happening. The user can click on the button to go to the 'mission event.' Below that is an activity ticker showing the most recent activity from participating users. There is a cityscape of NYC as the background."
+                    />
+                  </div>
                   <Image
                     src="/delta-microsite_2.png"
                     className="
-                                                rounded-none
-                                                max-w-xs                                            
-                                                sm:max-w-2xl
-                                                "
+                                                    rounded-none
+                                                    max-w-xs                                            
+                                                    sm:max-w-2xl
+                                                    "
                     alt="A modal pop up of 'How to Play, 3 ways to win.' Each way to win has it's own corresponding icon and underneat is the title and truncated description. The user can click 'more' to read more about each way to win."
                   />
                 </div>
@@ -155,17 +174,38 @@ export const DeltaNYC = () => {
                       and the results.
                     </h5>
                   </div>
-                  <div className="flex space-x-10 drop-shadow-xl">
+                  <div className="flex space-x-10 shrink-0 drop-shadow-xl">
                     <div className="flex-col">
-                      <Image
-                        src="/delta-minigame_1.png"
-                        className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                        alt="An overview screen of a minigame. The name of the game is the headline, with a summary on how to play. There is a button to 'Start playing' or the user can see current winners. At the bottom are details of what to know and how to gain opints with this game."
-                      />
+                      <div>
+                        <div className="hidden relative sm:block h-[215px] w-[320px] sm:h-[452px] sm:w-[672px]">
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-minigame_1.png')]"
+                          >
+                            <div className="opacity-0">
+                              <Image
+                                src="/delta-minigame_1.png"
+                                alt="An overview screen of a minigame. The name of the game is the headline, with a summary on how to play. There is a button to 'Start playing' or the user can see current winners. At the bottom are details of what to know and how to gain opints with this game."
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-minigame_1-hover.png')]"
+                          ></div>
+                        </div>
+                        <div className="sm:hidden">
+                          <Image
+                            src="/delta-minigame_1.png"
+                            className="
+                              rounded-none
+                              max-w-xs                                            
+                              sm:max-w-2xl
+                            "
+                            alt="An overview screen of a minigame. The name of the game is the headline, with a summary on how to play. There is a button to 'Start playing' or the user can see current winners. At the bottom are details of what to know and how to gain opints with this game."
+                          />
+                        </div>
+                      </div>
                       <div className="max-w-xs sm:max-w-lg mt-8 2xl:mt-16">
                         <p className="text-sm text-slate-600 leading-normal">
                           Each mini-game consists of an opening summary that
@@ -178,15 +218,40 @@ export const DeltaNYC = () => {
                       </div>
                     </div>
                     <div className="flex-col">
-                      <Image
-                        src="/delta-minigame_2.png"
-                        className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                        alt="An overview of the game, 'Around the World NYC or Not' user interface. There is an image of the statue of liberty in the background, there are controls at the bottom, that has tool tips to highlight their function/use. "
-                      />
+                      <div>
+                        <div className="hidden relative sm:block h-[215px] w-[320px] sm:h-[452px] sm:w-[672px]">
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] 
+                            bg-center bg-no-repeat bg-cover 
+                            hover:opacity-0 transition-opacity duration-200 ease-in-out
+                            bg-[url('/delta-minigame_2.png')]"
+                          >
+                            <div className="opacity-0">
+                              <Image
+                                src="/delta-minigame_2.png"
+                                alt="An overview of the game, 'Around the World NYC or Not' user interface. There is an image of the statue of liberty in the background, there are controls at the bottom, that has tool tips to highlight their function/use."
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] 
+                            opacity-0 hover:opacity-100 
+                            bg-center bg-no-repeat bg-cover 
+                            absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                            bg-[url('/delta-minigame_2-hover.png')]"
+                          ></div>
+                        </div>
+                        <div className="sm:hidden">
+                          <Image
+                            src="/delta-minigame_2.png"
+                            className="
+                            rounded-none
+                            max-w-xs                                            
+                            sm:max-w-2xl"
+                            alt="An overview of the game, 'Around the World NYC or Not' user interface. There is an image of the statue of liberty in the background, there are controls at the bottom, that has tool tips to highlight their function/use."
+                          />
+                        </div>
+                      </div>
                       <div className="max-w-xs sm:max-w-lg mt-8 2xl:mt-16">
                         <p className="text-sm text-slate-600 leading-normal">
                           This introduction of the game UI was a very important
@@ -210,15 +275,36 @@ export const DeltaNYC = () => {
                       />
                     </div>
                     <div className="flex-col">
-                      <Image
-                        src="/delta-minigame_4.png"
-                        className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                        alt="The results of the game. The result is at the top with how many are correct and the time it took. The left side lists the day's top 5 scores with their avatar, username, score and time. The user can share their score to social media and there is a message at the bottom telling details of when to expect the winner announcement and to come back and play again."
-                      />
+                      <div>
+                        <div className="hidden relative sm:block h-[215px] w-[320px] sm:h-[452px] sm:w-[672px]">
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-minigame_4.png')]"
+                          >
+                            <div className="opacity-0">
+                              <Image
+                                src="/delta-minigame_4.png"
+                                alt="The results of the game. The result is at the top with how many are correct and the time it took. The left side lists the day's top 5 scores with their avatar, username, score and time. The user can share their score to social media and there is a message at the bottom telling details of when to expect the winner announcement and to come back and play again."
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="h-[215px] w-[320px] sm:h-[452px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-minigame_4-hover.png')]"
+                          ></div>
+                        </div>
+                        <div className="sm:hidden">
+                          <Image
+                            src="/delta-minigame_4.png"
+                            className="
+                              rounded-none
+                              max-w-xs                                            
+                              sm:max-w-2xl
+                            "
+                            alt="The results of the game. The result is at the top with how many are correct and the time it took. The left side lists the day's top 5 scores with their avatar, username, score and time. The user can share their score to social media and there is a message at the bottom telling details of when to expect the winner announcement and to come back and play again."
+                          />
+                        </div>
+                      </div>
                       <div className="max-w-xs sm:max-w-lg mt-8 2xl:mt-16">
                         <p className="text-sm text-slate-600 leading-normal">
                           The results lists the user&apos;s score prominently,
@@ -289,15 +375,36 @@ export const DeltaNYC = () => {
                     </h5>
                   </div>
                   <div className="flex space-x-10 drop-shadow-xl">
-                    <Image
-                      src="/delta-social_1.png"
-                      className="
-                                                    rounded-none
-                                                    max-w-xs                                            
-                                                    sm:max-w-2xl
-                                                    "
-                      alt="The 'Up Your Score' section. On the left are the categories of ways the users can earn points during the campaign. On the right displays the different ways they can earn points within each category. The number of points they've received this way is at the top."
-                    />
+                    <div>
+                      <div className="hidden relative sm:block h-[327px] w-[320px] sm:h-[498px] sm:w-[672px]">
+                        <div
+                          className="h-[327px] w-[320px] sm:h-[498px] sm:w-[672px] bg-center bg-no-repeat bg-cover hover:opacity-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-social_1.png')]"
+                        >
+                          <div className="opacity-0">
+                            <Image
+                              src="/delta-social_1.png"
+                              alt="The 'Up Your Score' section. On the left are the categories of ways the users can earn points during the campaign. On the right displays the different ways they can earn points within each category. The number of points they've received this way is at the top."
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="h-[327px] w-[320px] sm:h-[498px] sm:w-[672px] opacity-0 hover:opacity-100 bg-center bg-no-repeat bg-cover absolute top-0 left-0 transition-opacity duration-200 ease-in-out
+                        bg-[url('/delta-social_1-hover.png')]"
+                        ></div>
+                      </div>
+                      <div className="sm:hidden">
+                        <Image
+                          src="/delta-social_1.png"
+                          className="
+                              rounded-none
+                              max-w-xs                                            
+                              sm:max-w-2xl
+                            "
+                          alt="The 'Up Your Score' section. On the left are the categories of ways the users can earn points during the campaign. On the right displays the different ways they can earn points within each category. The number of points they've received this way is at the top."
+                        />
+                      </div>
+                    </div>
                   </div>
                   <div className="max-w-xs sm:max-w-2xl md:max-w-3xl mt-8 sm:mt-10">
                     <p className="text-sm text-slate-600 leading-normal">

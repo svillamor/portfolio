@@ -403,11 +403,40 @@ export const WayWiser = () => {
                   </h5>
                 </div>
                 <div className="flex flex-col space-x-10 shrink-0 self-center">
-                  <Image
-                    src="/waywiser-share_1.png"
-                    className="w-80"
-                    alt="Four circles representing the participants of a Trusted Circle. The elder is in the middle, surrounded by a primary user and two secondary users. A dotted line in a circle connects the primary and secondary users."
-                  />
+                  <div className="flex space-x-10 shrink-0 drop-shadow-xl">
+                    <div className="hidden sm:block group h-[332px] w-[320px] relative">
+                      <div
+                        className="
+                          h-[332px] w-[320px] 
+                          bg-center bg-no-repeat bg-cover
+                          bg-[url('/waywiser-share_1.png')]"
+                      >
+                        <div className="opacity-0">
+                          <Image
+                            src="/waywiser-share_1-mobile.png"
+                            alt="Four circles representing the participants of a Trusted Circle. The elder is in the middle, surrounded by a primary user and two secondary users. A dotted line in a circle connects the primary and secondary users."
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="
+                          h-[332px] w-[320px] 
+                          bg-center bg-no-repeat bg-cover
+                          transition-opacity  
+                          group-hover:opacity-100 opacity-0 
+                          duration-700 ease-in-out 
+                          absolute top-0 left-0 
+                          bg-[url('/waywiser-share_1-hover.png')]"
+                      ></div>
+                    </div>
+                    <div className="sm:hidden">
+                      <Image
+                        src="/waywiser-share_1-mobile.png"
+                        className="w-80"
+                        alt="Four circles representing the participants of a Trusted Circle. The elder is in the middle, surrounded by a primary user and two secondary users. A dotted line in a circle connects the primary and secondary users."
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="max-w-xs sm:max-w-xl mt-20">
                   <p className="hidden sm:block text-sm text-slate-600 leading-normal">
